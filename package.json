@@ -1,0 +1,42 @@
+{
+  "name": "clawboss",
+  "version": "1.0.0",
+  "description": "OpenClaw as your productivity coach - AI-powered goal achievement with professional coaching techniques",
+  "main": "skill/scripts/index.js",
+  "bin": {
+    "clawboss": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test.js test"
+  },
+  "keywords": [
+    "openclaw",
+    "productivity",
+    "coaching",
+    "goals",
+    "ai-assistant",
+    "task-management",
+    "grow-model",
+    "accountability"
+  ],
+  "author": "ClawBoss Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paitesanshi/ClawBoss.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "templates/",
+    "docs/",
+    "README.md"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "openclaw": ">=1.0.0"
+  }
+}
